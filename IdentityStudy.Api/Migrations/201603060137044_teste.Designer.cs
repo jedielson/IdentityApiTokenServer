@@ -7,13 +7,13 @@ namespace IdentityStudy.Api.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.0-30225")]
-    public sealed partial class init : IMigrationMetadata
+    public sealed partial class teste : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(init));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(teste));
         
         string IMigrationMetadata.Id
         {
-            get { return "201603041853087_init"; }
+            get { return "201603060137044_teste"; }
         }
         
         string IMigrationMetadata.Source

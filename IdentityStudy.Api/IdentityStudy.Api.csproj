@@ -137,15 +137,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\IdentityServer.mdf" />
+    <Content Include="App_Data\IdentityServer_log.ldf">
+      <DependentUpon>IdentityServer.mdf</DependentUpon>
+    </Content>
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\OrdersController .cs" />
-    <Compile Include="Migrations\201603041853087_init.cs" />
-    <Compile Include="Migrations\201603041853087_init.Designer.cs">
-      <DependentUpon>201603041853087_init.cs</DependentUpon>
+    <Compile Include="Entities\Client.cs" />
+    <Compile Include="Entities\RefreshToken.cs" />
+    <Compile Include="Helper.cs" />
+    <Compile Include="Migrations\201603051825556_init.cs" />
+    <Compile Include="Migrations\201603051825556_init.Designer.cs">
+      <DependentUpon>201603051825556_init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201603060137044_teste.cs" />
+    <Compile Include="Migrations\201603060137044_teste.Designer.cs">
+      <DependentUpon>201603060137044_teste.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AuthContext.cs" />
@@ -157,10 +168,13 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Providers\SimpleRefreshTokenProvider.cs" />
+    <Compile Include="Providers\SimpleAuthorizationServerProvider.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\IdentityStudyApi.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -173,11 +187,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201603041853087_init.resx">
-      <DependentUpon>201603041853087_init.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201603051825556_init.resx">
+      <DependentUpon>201603051825556_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201603060137044_teste.resx">
+      <DependentUpon>201603060137044_teste.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

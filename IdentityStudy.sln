@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityStudy.Api", "IdentityStudy.Api\IdentityStudy.Api.csproj", "{9D218B62-2BDA-461F-A3E7-CE6AA79390CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityStudy.Spa", "IdentityStudy.Spa\IdentityStudy.Spa.csproj", "{35DB388D-2FC7-4EDF-8FED-C89AAD7C3897}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityStudy.Spa", "IdentityStudy.Spa\IdentityStudy.Spa.csproj", "{25752BDF-9BF0-4DA5-81AE-03B17107CB59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{9D218B62-2BDA-461F-A3E7-CE6AA79390CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D218B62-2BDA-461F-A3E7-CE6AA79390CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D218B62-2BDA-461F-A3E7-CE6AA79390CA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{35DB388D-2FC7-4EDF-8FED-C89AAD7C3897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{35DB388D-2FC7-4EDF-8FED-C89AAD7C3897}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{35DB388D-2FC7-4EDF-8FED-C89AAD7C3897}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{35DB388D-2FC7-4EDF-8FED-C89AAD7C3897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25752BDF-9BF0-4DA5-81AE-03B17107CB59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25752BDF-9BF0-4DA5-81AE-03B17107CB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25752BDF-9BF0-4DA5-81AE-03B17107CB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25752BDF-9BF0-4DA5-81AE-03B17107CB59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
